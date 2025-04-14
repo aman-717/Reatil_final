@@ -13,9 +13,9 @@ This is a full-stack Retail Billing System designed to manage the billing and pr
 
 ## Tech Stack
 - **Frontend**: React, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Other**: PDF generation for bills, email/WhatsApp integration for bill sharing
+- **Backend**:
+- **Database**: 
+- **Other**:
 
 ## Getting Started
 
