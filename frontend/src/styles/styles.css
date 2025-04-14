@@ -1,0 +1,9 @@
+/* Example CSS */
+body {
+  font-family: "Roboto", sans-serif;
+}
+.bg-marble-pattern {
+  background-image: url("../assets/peter-gargiulo-cGNCepznaV8-unsplash.jpg"); /* Replace with your marble texture URL */
+  background-size: cover;
+  background-position: center;
+}
