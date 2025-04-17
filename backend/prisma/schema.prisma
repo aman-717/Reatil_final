@@ -1,0 +1,26 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "./node_modules/@prisma/client"
+}
+
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Bill {
+  id          Int      @id @default(autoincrement())
+  customer    String
+  mobile      String
+  date        DateTime @default(now())
+  billedBy    String
+  items       String   // optional: for now as stringified JSON
+  totalAmount Float
+}
+
+model User {
+  id       Int     @id @default(autoincrement())
+  username String  @unique
+  password String
+}
